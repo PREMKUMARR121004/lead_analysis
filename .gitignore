@@ -1,0 +1,39 @@
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+env/
+.venv/
+
+# Docker Compose files
+docker-compose.yml
+docker-compose.yaml
+compose.yml
+compose.yaml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local database files
+*.sqlite3
+*.db
